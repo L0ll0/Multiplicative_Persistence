@@ -52,7 +52,7 @@ digits will be all 8's.
 char* calc (char f)
 {
   int l=atoi(&f);
-  char* num[l]; //number of l digits
+  char num[l]; //number of l digits
   int a,b, N=l-2; //a=counts the 7's
   for(int se=0; se<l-2-nines; se++) //At least, can be l-2(=N by definition) digits equals to 7
   {                               //but there are also the digits that are equale to nine (nines)
